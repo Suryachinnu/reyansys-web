@@ -40,6 +40,21 @@ export const LANDING_PAGE_CONTENT = {
                 button_label:'Read article'
             }
         ]
+    },
+    CLIENTS_BLOCK:{
+        TITLE:'Clients',
+        LOGOS:[
+            '../assets/images/Google-Logo.png',
+            '../assets/images/Transparent Logo.png',
+            '../assets/images/Google-Logo.png',
+            '../assets/images/Transparent Logo.png',
+            '../assets/images/Google-Logo.png',
+            '../assets/images/Transparent Logo.png',
+            '../assets/images/Google-Logo.png',
+            '../assets/images/Transparent Logo.png',
+            '../assets/images/Google-Logo.png',
+            '../assets/images/Transparent Logo.png',
+        ]
     }
    
 }

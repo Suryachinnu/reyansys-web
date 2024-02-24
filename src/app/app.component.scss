@@ -1,0 +1,18 @@
+.client-block {
+    img {
+        display: block;
+        height: 100px;
+        width: auto;
+        filter: grayscale(100%);
+        transition: filter 0.3s ease;
+        cursor: pointer;
+
+        &:hover {
+            filter: grayscale(0%);
+            transition: filter 0.3s ease;
+        }
+    }
+}
+::ng-deep .owl-carousel .owl-stage-outer{
+        width:100% !important;
+}
