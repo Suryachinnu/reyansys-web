@@ -1,0 +1,401 @@
+
+
+     <!-- PRE LOADER -->
+     <section class="preloader">
+        <div class="spinner">
+             <span class="spinner-rotate"></span>
+        </div>
+   </section>
+
+
+   <!-- MENU -->
+   <section class="navbar custom-navbar navbar-fixed-top" role="navigation">
+        <div class="container">
+
+             <div class="navbar-header">
+                  <button class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                       <span class="icon icon-bar"></span>
+                       <span class="icon icon-bar"></span>
+                       <span class="icon icon-bar"></span>
+                  </button>
+
+                  <!-- lOGO TEXT HERE -->
+                  <a href="index.html" class="navbar-brand-logo">
+                  </a>
+             </div>
+
+             <!-- MENU LINKS -->
+             <div class="collapse navbar-collapse">
+                  <ul class="nav navbar-nav navbar-nav-first">
+                       <li><a href="#home" class="smoothScroll">Home</a></li>
+                       <li><a href="#services" class="smoothScroll">Services</a></li>
+                       <li><a href="#blog" class="smoothScroll">Blog</a></li>
+                       <!-- <li><a href="#work" class="smoothScroll">Our Work</a></li> -->
+                       <li><a href="#contact" class="smoothScroll">Contact Us</a></li>
+                  </ul>
+
+                  <ul class="nav navbar-nav navbar-right">
+                       <li><a href="#" name="facebook"><i class="fa fa-facebook-square"></i></a></li>
+                       <li><a href="#" name="twitter"><i class="fa fa-twitter-square"></i></a></li>
+                       <li><a href="#" name="email"><i class="fa fa-envelope"></i></a></li>
+                       <li><a href="#" name="linkedin"><i class="fa fa-linkedin-square"></i></a></li>
+                       <li><a href="https://medium.com/@ReyanSys" name="medium" target="_blank"><i class="fa fa-medium"></i></a></li>
+                       <!-- <li class="section-btn"><a href="#" data-toggle="modal" data-target="#modal-form">Sign in / Join</a></li> -->
+                  </ul>
+             </div>
+
+        </div>
+   </section>
+
+
+   <!-- HOME -->
+   <section id="home" data-stellar-background-ratio="0.5">
+        <div class="overlay"></div>
+        <div class="container">
+             <div class="row">
+
+                  <div class="col-md-6 col-sm-12">
+                       <div class="home-info">
+                            <h1>{{APP_CONTENT.HEADER_BLOCK.TITLE}}</h1>
+                            <!-- <a href="#about" class="btn section-btn smoothScroll">Start a project</a> -->
+                            <span>
+                              {{APP_CONTENT.HEADER_BLOCK.DESCRIPTION}}
+                            </span>
+                            <!-- <a href="#about" class="btn section-btn smoothScroll">Get a Quote</a> -->
+                       </div>
+                  </div>
+
+                  <div class="col-md-6 col-sm-12">
+                       <div class="home-video">
+                            <!-- <div class=""> -->
+                                 <img [src]="APP_CONTENT.HEADER_BLOCK.imageUrl" />
+                                 <!-- <iframe src="https://www.youtube.com/embed/AqcjdkPMPJA" frameborder="0" allowfullscreen></iframe> -->
+                            <!-- </div> -->
+                       </div>
+                  </div>
+                  
+             </div>
+        </div>
+   </section>
+
+<!-- ABOUT -->
+<!-- <section id="about" data-stellar-background-ratio="0.5">
+<div class="container">
+     <div class="row">
+
+          <div class="col-md-5 col-sm-6">
+               <div class="about-info">
+                    <div class="section-title">
+                         <h2>Let us introduce</h2>
+                         <span class="line-bar">...</span>
+                    </div>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim.</p>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor.</p>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor.</p>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor.</p>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor.</p>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor.</p>
+               </div>
+          </div>
+
+          <div class="col-md-3 col-sm-6">
+               <div class="about-info skill-thumb">
+
+                    <strong>Web Design</strong>
+                         <span class="pull-right">85%</span>
+                              <div class="progress">
+                                   <div class="progress-bar progress-bar-primary" role="progressbar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100" style="width: 85%;"></div>
+                              </div>
+
+                    <strong>Photography</strong>
+                         <span class="pull-right">90%</span>
+                              <div class="progress">
+                                   <div class="progress-bar progress-bar-primary" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100" style="width: 90%;"></div>
+                              </div>
+
+                    <strong>Content Marketing</strong>
+                         <span class="pull-right">75%</span>
+                              <div class="progress">
+                                   <div class="progress-bar progress-bar-primary" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 75%;"></div>
+                              </div>
+
+                    <strong>CMS Admin</strong>
+                         <span class="pull-right">70%</span>
+                              <div class="progress">
+                                   <div class="progress-bar progress-bar-primary" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style="width: 70%;"></div>
+                              </div>
+                    <strong>Lorem Ipusam</strong>
+                    <span class="pull-right">70%</span>
+                          <div class="progress">
+                              <div class="progress-bar progress-bar-primary" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style="width: 70%;"></div>
+                          </div>
+                  <strong>Lorem Ipusam</strong>
+                  <span class="pull-right">70%</span>
+                        <div class="progress">
+                            <div class="progress-bar progress-bar-primary" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style="width: 70%;"></div>
+                        </div>
+                  <strong>Lorem Ipusam</strong>
+                  <span class="pull-right">70%</span>
+                        <div class="progress">
+                            <div class="progress-bar progress-bar-primary" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style="width: 70%;"></div>
+                        </div>   
+                  <strong>Lorem Ipusam</strong>
+                  <span class="pull-right">70%</span>
+                        <div class="progress">
+                            <div class="progress-bar progress-bar-primary" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style="width: 70%;"></div>
+                        </div>
+               </div>
+          </div>
+
+          <div class="col-md-4 col-sm-12">
+               <div class="about-image">
+                    <img src="../assets/images/about-image.jpg" class="img-responsive" alt="">
+               </div>
+          </div>
+          
+     </div>
+</div>
+</section> -->
+
+<section id="services" data-stellar-background-ratio="0.5">
+   <div class="container">
+        <div class="col-md-12 col-sm-12">
+             <div class="section-title">
+                  <h2>Services</h2>
+                  <span class="line-bar">...</span>
+             </div>
+        </div>
+         
+<div class="row">
+   <div class="col-md-6">
+       <div class="service-item">
+           <div class="icon">
+             <i class="fa fa-cloud"></i>
+           </div>
+           <h4>Cloud Manged Servcies</h4>
+           <p>Etiam viverra nibh at lorem hendrerit porta non nec ligula. Donec hendrerit porttitor pretium.</p>
+       </div>
+   </div>
+   <div class="col-md-6">
+       <div class="service-item">
+           <div class="icon">
+             <i class="fa fa-gears"></i>
+           </div>
+           <h4>App Containerization</h4>
+           <p>Vivamus nec vehicula felis, sit amet convallis ex. Aenean dolor risus, rutrum at tincidunt eget, placerat ac mauris.</p>
+       </div>
+   </div>
+   <div class="col-md-6">
+       <div class="service-item">
+           <div class="icon">
+             <i class="fa fa-object-group"></i>
+           </div>
+           <h4>Managed Observability and Monitoring</h4>
+           <p>Praesent nec dui sed urna pharetra dapibus at ac elit. Aenean hendrerit metus leo, quis viverra purus condimentum nec.</p>
+       </div>
+   </div>
+   <div class="col-md-6">
+        <div class="service-item">
+            <div class="icon">
+              <i class="fa fa-database"></i>
+            </div>
+            <h4>DataOps services</h4>
+            <p>Praesent nec dui sed urna pharetra dapibus at ac elit. Aenean hendrerit metus leo, quis viverra purus condimentum nec.</p>
+        </div>
+    </div>
+</div>
+</div>
+</section>
+
+
+<!-- CLIENTS -->
+<section id="clients" data-stellar-background-ratio="0.5">
+  <div class="container">
+       <div class="row">
+  <div class="col-md-12 col-sm-12">
+      <div class="section-title">
+           <h2>{{APP_CONTENT.CLIENTS_BLOCK.TITLE}}</h2>
+           <span class="line-bar">...</span>
+      </div>
+ </div>
+    <owl-carousel-o [options]="customOptions" >
+      <ng-container *ngFor="let logoUrl of APP_CONTENT.CLIENTS_BLOCK.LOGOS; let i = index">
+          <ng-template carouselSlide [id]="i+'str'" >
+              <div class="client-block">
+                   <img [src]="logoUrl" [alt]="i+'str'"/>
+              </div>
+             
+          </ng-template>
+        </ng-container>
+    </owl-carousel-o>
+</div>
+</div>
+</section>
+
+<!-- BLOG -->
+<section id="blog" data-stellar-background-ratio="0.5">
+   <div class="container">
+        <div class="row">
+ 
+             <div class="col-md-12 col-sm-12">
+                  <div class="section-title">
+                       <h2>{{APP_CONTENT.BLOG_BLOCK.TITLE}}</h2>
+                       <span class="line-bar">...</span>
+                  </div>
+             </div>
+             
+ 
+             <div class="col-md-12 col-sm-12" *ngFor="let blog of APP_CONTENT.BLOG_BLOCK.content">
+                  <!-- BLOG THUMB -->
+                  <div class="media blog-thumb">
+                       <div class="media-object media-left">
+                            <a [href]="blog.blog_url"><img [src]="blog.image_url" class="img-responsive" alt=""></a>
+                       </div>
+                       <div class="media-body blog-info">
+                            <!-- <small><i class="fa fa-clock-o"></i> {{blog.posted_date}}</small> -->
+                            <h3><a [href]="blog.blog_url" target="_blank">  {{blog.blog_title}}.</a></h3>
+                            <p>{{blog.blog_description}}</p>
+                            <a [href]="blog.blog_url" class="btn section-btn" target="_blank">{{blog.button_label}}</a>
+                       </div>
+                  </div>
+             </div>
+ 
+            
+             
+        </div>
+   </div>
+ </section>
+
+<!-- CONTACT -->
+<section id="contact" data-stellar-background-ratio="0.5">
+   <div class="container">
+        <div class="row">
+
+             <div class="col-md-12 col-sm-12">
+                  <div class="section-title">
+                       <h2>Contact us</h2>
+                       <span class="line-bar">...</span>
+                  </div>
+             </div>
+
+             <div class="col-md-8 col-sm-8">
+                 
+                  <!-- CONTACT FORM HERE -->
+                  <form id="contact-form" role="form" action="#" method="post">
+                       <div class="col-md-6 col-sm-6">
+                            <input type="text" class="form-control" placeholder="Full Name" id="cf-name" name="cf-name" required="">
+                       </div>
+
+                       <div class="col-md-6 col-sm-6">
+                            <input type="email" class="form-control" placeholder="Your Email" id="cf-email" name="cf-email" required="">
+                       </div>
+
+                       <div class="col-md-12 col-sm-12">
+                            <input type="tel" class="form-control" placeholder="Your Phone" id="cf-number" name="cf-number" required="">
+                       </div>
+
+                       
+
+                       <div class="col-md-12 col-sm-12">
+                            <textarea class="form-control" rows="6" placeholder="Your requirements" id="cf-message" name="cf-message" required=""></textarea>
+                       </div>
+
+                       <div class="col-md-4 col-sm-12">
+                            <input type="submit" class="form-control" name="submit" value="Send Message">
+                       </div>
+
+                  </form>
+             </div>
+
+             <div class="col-md-4 col-sm-4">
+                  <div class="google-map">
+<!-- How to change your own map point
+     1. Go to Google Maps
+     2. Click on your location point
+     3. Click "Share" and choose "Embed map" tab
+     4. Copy only URL and paste it within the src="" field below
+-->
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d72783.50662727622!2d80.63200665142845!3d16.515398408410842!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a35eff9482d944b%3A0x939b7e84ab4a0265!2sVijayawada%2C%20Andhra%20Pradesh!5e0!3m2!1sen!2sin!4v1708919106392!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                  </div>
+             </div>
+
+        </div>
+   </div>
+</section>
+
+   <!-- FOOTER -->
+   <footer data-stellar-background-ratio="0.5">
+      <div class="container">
+           <div class="row">
+
+                <div class="col-md-5 col-sm-12">
+                     <div class="footer-thumb footer-info"> 
+                          <h2>
+                              <a href="index.html" class="navbar-brand-logo">
+                              </a>
+                          </h2>
+                          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                     </div>
+                </div>
+
+                <div class="col-md-2 col-sm-4"> 
+                     <div class="footer-thumb"> 
+                          <h2>Reyansys</h2>
+                          <ul class="footer-link">
+                               <!-- <li><a href="#">About Us</a></li>
+                               <li><a href="#">Join our team</a></li> -->
+                               <li><a href="https://medium.com/@ReyanSys" target="_blank">Read Blog</a></li>
+                               <!-- <li><a href="#">Press</a></li> -->
+                          </ul>
+                     </div>
+                </div>
+
+                <!-- <div class="col-md-2 col-sm-4"> 
+                     <div class="footer-thumb"> 
+                          <h2>Services</h2>
+                          <ul class="footer-link">
+                               <li><a href="">Pricing</a></li>
+                               <li><a href="">Documentation</a></li>
+                               <li><a href="">Support</a></li>
+                          </ul>
+                     </div>
+                </div> -->
+
+                <div class="col-md-3 col-sm-4"> 
+                     <div class="footer-thumb"> 
+                          <h2>Find us</h2>
+                          <p>Address</p>
+                          <address class="address-styles">
+                           California<br/>
+                           United states of America
+                          </address>
+                         
+                     </div>
+                </div>                    
+
+                <div class="col-md-12 col-sm-12">
+                     <div class="footer-bottom">
+                          <div class="col-md-6 col-sm-5">
+                               <div class="copyright-text"> 
+                                    <!-- <p>Copyright &copy; 2017 Your Company</p> -->
+                               </div>
+                          </div>
+                          <div class="col-md-6 col-sm-7">
+                               <div class="phone-contact"> 
+                                    <p>Call us <span>000000000</span></p>
+                               </div>
+                               <ul class="social-icon">
+                                  <li><a href="#" name="facebook"><i class="fa fa-facebook-square"></i></a></li>
+                                  <li><a href="#" name="twitter"><i class="fa fa-twitter-square"></i></a></li>
+                                  <li><a href="#" name="email"><i class="fa fa-envelope"></i></a></li>
+                                  <li><a href="#" name="linkedin"><i class="fa fa-linkedin-square"></i></a></li>
+                                  <li><a href="https://medium.com/@ReyanSys" name="medium" target="_blank"><i class="fa fa-medium"></i></a></li>
+                               </ul>
+                          </div>
+                     </div>
+                </div>
+                
+           </div>
+      </div>
+ </footer>
+

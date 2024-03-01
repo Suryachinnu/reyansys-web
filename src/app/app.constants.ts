@@ -9,51 +9,25 @@ export const LANDING_PAGE_CONTENT = {
         content:[
             {
                 image_url:'../assets/images/blog-image1.jpg',
-                blog_url:'blog-detail.html',
-                blog_title:'Lorem ipusam dummy text',
-                blog_description:'lorem dummy description',
+                blog_url:'https://medium.com/@ReyanSys',
+                blog_title:'Find our latest blogs on Medium',
+                blog_description:'lorem dummy lorem dummy description lorem dummy lorem dummy description',
                 posted_date:'December 22, 2017',
-                button_label:'Read article'
+                button_label:'View all blogs'
             },
-            {
-                image_url:'../assets/images/blog-image1.jpg',
-                blog_url:'blog-detail.html',
-                blog_title:'Lorem ipusam dummy text',
-                blog_description:'lorem dummy description',
-                posted_date:'December 22, 2017',
-                button_label:'Read article'
-            },
-            {
-                image_url:'../assets/images/blog-image1.jpg',
-                blog_url:'blog-detail.html',
-                blog_title:'Lorem ipusam dummy text',
-                blog_description:'lorem dummy description',
-                posted_date:'December 22, 2017',
-                button_label:'Read article'
-            },
-            {
-                image_url:'../assets/images/blog-image1.jpg',
-                blog_url:'blog-detail.html',
-                blog_title:'Lorem ipusam dummy text',
-                blog_description:'lorem dummy description',
-                posted_date:'December 22, 2017',
-                button_label:'Read article'
-            }
+            
         ]
     },
     CLIENTS_BLOCK:{
         TITLE:'Clients',
         LOGOS:[
-            '../assets/images/Google-Logo.png',
-            '../assets/images/Transparent Logo.png',
-            '../assets/images/Google-Logo.png',
-            '../assets/images/Transparent Logo.png',
-            '../assets/images/Google-Logo.png',
-            '../assets/images/Transparent Logo.png',
-            '../assets/images/Google-Logo.png',
-            '../assets/images/Transparent Logo.png',
-            '../assets/images/Google-Logo.png',
-            '../assets/images/Transparent Logo.png',
+            '../assets/images/cisco-logo.svg',
+            '../assets/images/capital-one.svg',
+            '../assets/images/citi-logo.svg',
+            '../assets/images/fm-logo.webp',
+            '../assets/images/FreddieMacLogo.svg',
+            '../assets/images/walmart-logo.svg',
+            '../assets/images/ibm-logo.png',
         ]
     }
    
