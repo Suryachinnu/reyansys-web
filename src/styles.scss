@@ -19,6 +19,9 @@
   ::ng-deep .owl-carousel .owl-stage-outer{
           width:100% !important;
   }
+  .owl-carousel{
+    display: flex !important;
+  }
   .service-item {
       text-align: center;
       border: 1px solid #ddd;
@@ -66,3 +69,8 @@
       margin-top: 25px;
     }
     
+/* Importing Bootstrap SCSS file. */
+
+
+/* Importing Datepicker SCSS file. */
+// @import "node_modules/ngx-bootstrap/datepicker/bs-datepicker";

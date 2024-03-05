@@ -1,11 +1,26 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 import { HomeComponent } from './pages/home/home.component';
+import { ServicesComponent } from './pages/services/services.component';
+import { WildCardComponent } from './pages/wild-card/wild-card.component';
 
 const routes: Routes = [
   {
-    path:'',
-    component:HomeComponent
+    path: '',
+    pathMatch: 'full',
+    redirectTo:'home'
+  },
+  {
+    path: 'home',
+    component: HomeComponent
+  },
+  {
+    path: 'services/:id',
+    component: ServicesComponent
+  },
+  {
+    path: '**',
+    component: WildCardComponent
   }
 ];
 

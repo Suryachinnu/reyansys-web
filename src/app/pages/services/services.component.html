@@ -1,0 +1,222 @@
+ <!-- BLOG HEADER -->
+     <section id="blog-header" data-stellar-background-ratio="0.5">
+        <div class="overlay"></div>
+        <div class="container">
+             <div class="row">
+
+                  <div class="col-md-offset-1 col-md-5 col-sm-12 service_header">
+                       <h2>{{APP_CONTENT.SERVICES_BLOCK[service].title}}</h2>
+                       <p>{{APP_CONTENT.SERVICES_BLOCK[service].description}}</p>
+                  </div>
+                  
+             </div>
+        </div>
+   </section>
+
+
+   <!-- BLOG DETAIL -->
+   <section id="blog-detail" data-stellar-background-ratio="0.5">
+        <div class="container">
+             <div class="row">
+                  <div class="col-md-offset-1 col-md-10 col-sm-12">
+                       <!-- BLOG THUMB -->
+                       <div class="blog-detail-thumb">
+                            <div class="blog-image">
+                                 <img src="../../../assets/images/desktop-employee.jpg" class="img-responsive" alt="Services Image">
+                            </div>
+                            <h1>{{APP_CONTENT.SERVICES_BLOCK[service].title}}</h1>
+                            <div [ngSwitch]="service">
+                              <ng-container *ngSwitchCase="'CloudServices'">
+                                   <div >                                       
+                                        <div class="service">
+                                          <h2>Empowerment Through Innovation</h2>
+                                          <p>Empower clients with cutting-edge cloud technologies through ReyanSys' managed services, driving digital transformation and innovation within their organizations.</p>
+                                        </div>
+                                        <div class="service">
+                                          <h2>Reliability and Performance</h2>
+                                          <p>Deliver unparalleled reliability and performance in cloud management services, exceeding industry standards and client expectations, to establish ReyanSys as a trusted partner in their digital journey.</p>
+                                        </div>
+                                        <div class="service">
+                                          <h2>Cost Efficiency and Resource Utilization</h2>
+                                          <p>Optimize clients' cloud environments for cost efficiency and resource utilization, leveraging ReyanSys expertise to streamline operations and drive bottom-line savings.</p>
+                                        </div>
+                                        <div class="service">
+                                          <h2>Cybersecurity and Compliance</h2>
+                                          <p>Enhance cybersecurity posture and compliance adherence for clients through robust cloud security measures implemented and managed by ReyanSys, safeguarding their data and applications against evolving threats.</p>
+                                        </div>
+                                        <div class="service">
+                                          <h2>Long-term Partnerships</h2>
+                                          <p>Foster long-term partnerships with clients by providing personalized, proactive support and continuous improvement initiatives.</p>
+                                        </div>
+                                      </div>
+                              </ng-container>
+                              <ng-container *ngSwitchCase="'AppContainerization'">
+                               
+                                        <div class="service">
+                                          <h2>Specialized Strategies</h2>
+                                          <p>Reyansys specializes in crafting containerization strategies tailored to each client's unique needs and requirements. Whether they're migrating existing applications or developing new ones, your team ensures the best approach to containerization.</p>
+                                        </div>
+                                        <div class="service">
+                                          <h2>Expert Implementation</h2>
+                                          <p>With a team of skilled professionals, Reyansys efficiently implements containerization for clients' applications. From creating Dockerfiles to configuring containers and orchestrating deployments, your experts handle every aspect of the process.</p>
+                                        </div>
+                                        <div class="service">
+                                          <h2>Seamless Integration</h2>
+                                          <p>Reyansys seamlessly integrates containerization into clients' existing workflows and environments. Whether it's integrating with CI/CD pipelines or orchestrating containers with Kubernetes, your solutions fit seamlessly into clients' ecosystems.</p>
+                                        </div>
+                                        <div class="service">
+                                          <h2>Optimization and Scalability</h2>
+                                          <p>Beyond initial implementation, Reyansys focuses on optimizing and scaling containerized applications for performance and efficiency. This includes ongoing monitoring, tuning, and scaling to meet changing demands.</p>
+                                        </div>
+                                        <div class="service">
+                                          <h2>Training and Support</h2>
+                                          <p>Reyansys provides comprehensive training and support to ensure clients' teams are equipped to manage and operate containerized applications effectively. From best practices to troubleshooting, your support ensures clients maximize the benefits of containerization.</p>
+                                        </div>
+                                        <div class="service">
+                                          <h2>Security and Compliance</h2>
+                                          <p>Reyansys prioritizes security and compliance in containerization solutions, implementing best practices and tools to safeguard clients' applications and data. This includes vulnerability scanning, access controls, and compliance monitoring.</p>
+                                        </div>
+                                        <p class="summary">With Reyansys' containerization services, clients can modernize their application infrastructure, improve agility, and accelerate innovation while reducing operational overhead and risk.</p>
+                                      
+                                      
+                              </ng-container>
+                              <ng-container *ngSwitchCase="'DataOpsServices'">
+                                   
+                                        <div class="service">
+                                          <h2>Optimize Development Processes</h2>
+                                          <p>Streamline software development lifecycle to improve efficiency and reduce time to market.</p>
+                                        </div>
+                                        <div class="service">
+                                          <h2>Enhance Collaboration</h2>
+                                          <p>Foster better communication and collaboration between development and operations teams to facilitate faster delivery of high-quality software.</p>
+                                        </div>
+                                        <div class="service">
+                                          <h2>Automate Infrastructure</h2>
+                                          <p>Implement automation tools and practices to automate provisioning, configuration, and deployment of infrastructure, leading to greater consistency and reliability.</p>
+                                        </div>
+                                        <div class="service">
+                                          <h2>Improve Deployment Frequency</h2>
+                                          <p>Enable more frequent and reliable software deployments, allowing businesses to respond quickly to market demands and customer feedback.</p>
+                                        </div>
+                                        <div class="service">
+                                          <h2>Ensure Stability and Reliability</h2>
+                                          <p>Focus on maintaining system stability and reliability by implementing robust monitoring, testing, and rollback strategies.</p>
+                                        </div>
+                                        <div class="service">
+                                          <h2>Cost Optimization</h2>
+                                          <p>Identify opportunities to optimize infrastructure costs through efficient resource utilization and scaling strategies.</p>
+                                        </div>
+                                        <div class="service">
+                                          <h2>Enhance Security</h2>
+                                          <p>Integrate security practices into the DevOps pipeline to ensure the confidentiality, integrity, and availability of software and infrastructure.</p>
+                                        </div>
+                                        <div class="service">
+                                          <h2>Continuous Improvement</h2>
+                                          <p>Foster a culture of continuous improvement by regularly reviewing and refining DevOps processes and practices.</p>
+                                        </div>
+                                        <p class="summary">By aligning your DevOps services with these objectives, Reyansys can help its clients achieve greater agility, efficiency, and innovation in their software development and operations.</p>
+                                   
+                              </ng-container>
+                              <ng-container *ngSwitchCase="'Observability'">
+                                   <section class="observability-section">
+                                          <h1>Our Approach</h1>
+                                          <p class="intro">We take a proactive approach to observability and monitoring, leveraging state-of-the-art tools and methodologies to detect, diagnose, and resolve issues before they impact your business.</p>
+                                          
+                                          <h2>Our Services</h2>
+                                          <section>
+                                             <h1>Infrastructure Monitoring</h1>
+                                             <p>We monitor the health and performance of your infrastructure components, including servers, networks, databases, and storage systems, to identify and address potential bottlenecks or failures.</p>
+                                           </section>
+                                         
+                                           <section>
+                                             <h1>Application Performance Monitoring (APM)</h1>
+                                             <p>Our APM solutions provide real-time insights into the performance of your applications, allowing you to pinpoint performance issues, optimize resource utilization, and improve user experience.</p>
+                                           </section>
+                                         
+                                           <section>
+                                             <h1>Log Management</h1>
+                                             <p>We collect, analyze, and correlate log data from across your infrastructure and applications to identify security threats, troubleshoot issues, and gain valuable insights into system behavior.</p>
+                                           </section>
+                                         
+                                           <section>
+                                             <h1>Cloud Monitoring</h1>
+                                             <p>Whether you're utilizing public, private, or hybrid cloud environments, our cloud monitoring services ensure the reliability, availability, and performance of your cloud-based resources.</p>
+                                           </section>
+                                         
+                                           <section>
+                                             <h1>Security Monitoring</h1>
+                                             <p>Our security monitoring services help safeguard your systems and data against threats by continuously monitoring for suspicious activities, identifying vulnerabilities, and providing actionable insights to enhance your security posture.</p>
+                                           </section>
+                                         
+                                           <section>
+                                             <h1>Custom Dashboards and Reporting</h1>
+                                             <p>We provide customizable dashboards and reports tailored to your specific needs, enabling you to visualize key performance metrics, track trends, and make informed decisions.</p>
+                                           </section>
+                                        </section>
+                                      
+                                        <section>
+                                          <h1>Benefits of Choosing ReyanSys</h1>
+                                          <div class="benefit">
+                                             <h2>24/7 Monitoring and Support</h2>
+                                             <p>Our team of experienced engineers and analysts monitor your systems round-the-clock, ensuring rapid response to any incidents or anomalies.</p>
+                                           </div>
+                                         
+                                           <div class="benefit">
+                                             <h2>Cost Efficiency</h2>
+                                             <p>By outsourcing your observability and monitoring needs to ReyanSys, you can reduce the burden on your internal IT resources and minimize downtime, ultimately saving costs in the long run.</p>
+                                           </div>
+                                         
+                                           <div class="benefit">
+                                             <h2>Scalability</h2>
+                                             <p>Our services are designed to scale alongside your business, allowing you to adapt to changing requirements and infrastructure demands without compromising on performance or reliability.</p>
+                                           </div>
+                                         
+                                           <div class="benefit">
+                                             <h2>Expertise</h2>
+                                             <p>With years of experience in observability and monitoring, our team possesses the expertise and knowledge needed to tackle even the most complex challenges, ensuring the success of your IT initiatives.</p>
+                                           </div>
+                                        </section>
+                                      
+                                        <section>
+                                          <h1>Get Started Today</h1>
+                                          <p>Don't let poor observability and monitoring undermine the performance and security of your IT infrastructure. Partner with ReyanSys and gain peace of mind knowing that your systems are in safe hands. Contact us today to learn more about our Managed Observability and Monitoring Services and how we can help your business thrive in the digital age.</p>
+                                        </section>
+                              </ng-container>
+                            </div>
+                           
+                           
+<!--                            
+                            <h2>What makes you happy everyday?</h2>
+                            <p>Lorem ipsum dolor sit amet, maecenas eget vestibulum justo imperdiet, wisi risus purus augue vulputate voluptate neque, curabitur dolor libero sodales vitae elit massa. Lorem ipsum dolor sit amet, maecenas eget vestibulum justo imperdiet, wisi risus purus augue vulputate voluptate neque</p>
+
+                            <blockquote>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sequi, quisquam, aut, eum, natus excepturi impedit ipsa rerum ratione id dolores ducimus minus eos veniam similique.</blockquote>
+
+                            <p>Vivamus quis velit sed ante suscipit aliquam nec sed ex. Maecenas porta leo at mi suscipit congue. Donec ipsum metus, tristique eu leo ut, luctu Vivamus sit amet purus nec risus mollis tempor.</p>
+
+                            <div class="blog-ads">
+                                 <h4>Blog Sample Advertising</h4>
+                            </div>
+                            
+                            <ul>
+                                 <li>Brand Identity ipsum dolor eget vestibulum justo imper diet.</li>
+                                 <li>Social Marketing porta leo at mi suscipit congue. Donec ipsum metus, tristique leo luctus.</li>
+                                 <li>Wordpress Themes augue vulputate voluptate neque, curabitur dolor vitae massa.</li>
+                            </ul>
+                            <p>Lorem ipsum dolor sit amet, maecenas eget vestibulum justo imperdiet, wisi risus purus augue vulputate voluptate neque, curabitur dolor libero sodales vitae elit massa.</p>
+                            <div class="blog-social-share">
+                                 <h4>Share this article</h4>
+                                 <a href="https://www.facebook.com/templatemo" class="btn btn-primary"><i class="fa fa-facebook"></i>facebook</a>
+                                 <a href="#" class="btn btn-success"><i class="fa fa-twitter"></i>twitter</a>
+                                 <a href="#" class="btn btn-danger"><i class="fa fa-google-plus"></i>google plus</a>
+                            </div> -->
+                       </div>
+                  </div>
+                  <div class="col-md-1">
+
+                  </div>
+                  
+             </div>
+        </div>
+   </section>
+ 
+

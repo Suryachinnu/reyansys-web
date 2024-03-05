@@ -6,7 +6,7 @@ http://www.templatemo.com/tm-509-hydro
 
 */  
   @import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600');
-
+  @import "./node_modules/bootstrap/scss/bootstrap";
   body {
     background: #ffffff;
     font-family: 'Poppins', sans-serif;
@@ -122,9 +122,7 @@ http://www.templatemo.com/tm-509-hydro
 
   .section-btn:hover,
   .section-btn:focus {
-    background: #00F260;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #0575E6, #00F260);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #0575E6, #00F260); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: #ed6321;  /* fallback for old browsers */   
     border-color: transparent;
     color: #393939;
   }
@@ -567,9 +565,7 @@ http://www.templatemo.com/tm-509-hydro
   }
 
   .blog-info .section-btn:hover {
-    background: #00F260;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #0575E6, #00F260);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #0575E6, #00F260); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: #ed6321;  /* fallback for old browsers */
     color: #ffffff;
   }
 
@@ -677,7 +673,7 @@ http://www.templatemo.com/tm-509-hydro
   }
 
   #contact input[type='submit'] {
-    background: #ce3232;
+    background: #ed6321;
     border-radius: 100px;
     color: #ffffff;
     font-weight: 500;
