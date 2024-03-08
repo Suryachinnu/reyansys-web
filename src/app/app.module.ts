@@ -10,6 +10,7 @@ import { ServicesComponent } from './pages/services/services.component';
 import { HeaderComponent } from './components/header/header.component';
 import { FooterComponent } from './components/footer/footer.component';
 import { WildCardComponent } from './pages/wild-card/wild-card.component'; 
+import { ReactiveFormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [
@@ -25,6 +26,7 @@ import { WildCardComponent } from './pages/wild-card/wild-card.component';
     AppRoutingModule,
     BrowserAnimationsModule,
     CarouselModule,
+    ReactiveFormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
