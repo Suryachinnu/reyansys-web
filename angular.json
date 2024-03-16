@@ -38,7 +38,12 @@
               "src/assets/css/style.css",
               "src/styles.scss"
             ],
-            "scripts": []
+            "scripts": [
+              "node_modules/jquery/dist/jquery.min.js",
+              "node_modules/bootstrap/dist/js/bootstrap.min.js",
+              "node_modules/jquery.stellar/jquery.stellar.js",
+              "node_modules/smooth-scroll/dist/smooth-scroll.min.js"
+            ]
           },
           "configurations": {
             "production": {
