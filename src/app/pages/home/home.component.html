@@ -8,8 +8,23 @@
              <div class="row">
 
                   <div class="col-md-6 col-sm-12">
+                    <!-- <div class="waviy">
+                         <span style="--i:1">R</span>
+                         <span style="--i:2">E</span>
+                         <span style="--i:3">Y</span>
+                         <span style="--i:4">A</span>
+                         <span style="--i:5">N</span>
+                         <span style="--i:6">S</span>
+                         <span style="--i:7">Y</span>
+                         <span style="--i:8">S</span>                      
+                        </div> -->
                        <div class="home-info">
-                            <h1>{{APP_CONTENT.HEADER_BLOCK.TITLE}}</h1>
+                            <h1>
+                              <span  class="animate-charcter">Innovative</span> and 
+                              <span  class="animate-charcter"> Reliable</span>
+                              IT Solutions
+                            
+                         </h1>
                             <!-- <a href="#about" class="btn section-btn smoothScroll">Start a project</a> -->
                             <span>
                               {{APP_CONTENT.HEADER_BLOCK.DESCRIPTION}}
@@ -48,34 +63,37 @@
              <i class="fa fa-cloud"></i>
            </div>
            <h4>Cloud Manged Servcies</h4>
-           <p>Etiam viverra nibh at lorem hendrerit porta non nec ligula. Donec hendrerit porttitor pretium.</p>
+           <p>To provide comprehensive, reliable, and scalable cloud managed services through ReyanSys,
+                ensuring seamless migration, optimization, and ongoing management of clients cloud infrastructure
+               to enhance efficiency, security, and agility while maximizing ROI.</p>
        </div>
    </div>
+   <div class="col-md-6"  routerLink="/services/Observability">
+     <div class="service-item">
+         <div class="icon">
+           <i class="fa fa-object-group"></i>
+         </div>
+         <h4>Managed Observability and Monitoring</h4>
+         <p>Welcome to ReyanSys, your trusted partner in IT staffing solutions tailored to propel your organization's digital transformation journey forward. With our expertise, experience, and commitment to excellence.</p>
+     </div>
+ </div>
    <div class="col-md-6">
        <div class="service-item" routerLink="/services/AppContainerization">
            <div class="icon">
              <i class="fa fa-gears"></i>
            </div>
            <h4>App Containerization</h4>
-           <p>Vivamus nec vehicula felis, sit amet convallis ex. Aenean dolor risus, rutrum at tincidunt eget, placerat ac mauris.</p>
+           <p>As Reyansys, you're likely committed to delivering top-notch containerization solutions to your clients. Here's how you might highlight your services</p>
        </div>
    </div>
-   <div class="col-md-6"  routerLink="/services/Observability">
-       <div class="service-item">
-           <div class="icon">
-             <i class="fa fa-object-group"></i>
-           </div>
-           <h4>Managed Observability and Monitoring</h4>
-           <p>Praesent nec dui sed urna pharetra dapibus at ac elit. Aenean hendrerit metus leo, quis viverra purus condimentum nec.</p>
-       </div>
-   </div>
+   
    <div class="col-md-6">
         <div class="service-item"  routerLink="/services/DataOpsServices">
             <div class="icon">
               <i class="fa fa-database"></i>
             </div>
             <h4>DataOps services</h4>
-            <p>Praesent nec dui sed urna pharetra dapibus at ac elit. Aenean hendrerit metus leo, quis viverra purus condimentum nec.</p>
+            <p>Certainly! Here are some potential objectives for Reyansys to consider in offering DevOps services</p>
         </div>
     </div>
 </div>
@@ -129,7 +147,7 @@
                        <div class="media-body blog-info">
                             <!-- <small><i class="fa fa-clock-o"></i> {{blog.posted_date}}</small> -->
                             <h3><a [href]="blog.blog_url" target="_blank">  {{blog.blog_title}}.</a></h3>
-                            <p>{{blog.blog_description}}</p>
+                            <!-- <p>{{blog.blog_description}}</p> -->
                             <a [href]="blog.blog_url" class="btn section-btn" target="_blank">{{blog.button_label}}</a>
                        </div>
                   </div>

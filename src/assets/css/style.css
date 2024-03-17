@@ -332,8 +332,7 @@
     display: inline-block;
     vertical-align: middle;
     color: #f9f9f9;
-    font-weight: 500;
-    margin-bottom: 20px; 
+    font-weight: 500;   
   }
 
   .home-info span small {
