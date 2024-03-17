@@ -27,11 +27,11 @@
              <!-- MENU LINKS -->
              <div class="collapse navbar-collapse" >
                   <ul class="nav navbar-nav navbar-nav-first">
-                       <li><a  routerLink="/" class="smoothScroll" >Home</a></li>
-                       <li><a href="#services" class="smoothScroll" (click)="forceNavigate('services')">Services</a></li>                       
-                       <li><a href="#blog" class="smoothScroll" (click)="forceNavigate('blog')">Blog</a></li>
+                       <li><a  routerLink="/" class="smoothScroll">Home</a></li>
+                       <li><a  class="smoothScroll" routerLink="." fragment="services" >Services</a></li>                       
+                       <li><a  class="smoothScroll" routerLink="." fragment="blog">Blog</a></li>
                        <!-- <li><a href="#work" class="smoothScroll">Our Work</a></li> -->
-                       <li><a href="#contact" class="smoothScroll" (click)="forceNavigate('contact')">Contact Us</a></li>
+                       <li><a  class="smoothScroll" routerLink="." fragment="contact" >Contact Us</a></li>
                   </ul>
 
                   <ul class="nav navbar-nav navbar-right">

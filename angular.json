@@ -40,9 +40,7 @@
             ],
             "scripts": [
               "node_modules/jquery/dist/jquery.min.js",
-              "node_modules/bootstrap/dist/js/bootstrap.min.js",
-              "node_modules/jquery.stellar/jquery.stellar.js",
-              "node_modules/smooth-scroll/dist/smooth-scroll.min.js"
+              "node_modules/bootstrap/dist/js/bootstrap.min.js"             
             ]
           },
           "configurations": {
@@ -50,12 +48,12 @@
               "budgets": [
                 {
                   "type": "initial",
-                  "maximumWarning": "500kb",
-                  "maximumError": "1mb"
+                  "maximumWarning": "1mb",
+                  "maximumError": "5mb"
                 },
                 {
                   "type": "anyComponentStyle",
-                  "maximumWarning": "100kb",
+                  "maximumWarning": "500kb",
                   "maximumError": "100kb"
                 }
               ],

@@ -10,13 +10,9 @@ import 'bootstrap'
   styleUrls: ['./header.component.scss']
 })
 export class HeaderComponent {
-  showMenu:boolean = false;
  
 ngOnInit(){
   this.init()
-}
-collapse(){
-this.showMenu = !this.showMenu
 }
 
 private init(){
