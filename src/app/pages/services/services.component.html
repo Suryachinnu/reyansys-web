@@ -20,7 +20,11 @@
                        <!-- BLOG THUMB -->
                        <div class="blog-detail-thumb">
                             <div class="blog-image">
-                                 <img src="../../../assets/images/desktop-employee.jpg" class="img-responsive" alt="Services Image">
+
+                              <img *ngIf="service ==='CloudServices'" src="../../../assets/images/clouds.jpg" class="img-responsive" alt="Services Image">
+                              <img *ngIf="service ==='AppContainerization'" src="../../../assets/images/desktop-employee.jpg" class="img-responsive" alt="Services Image">
+                              <img *ngIf="service ==='DataOpsServices'" src="../../../assets/images/devops.jpg" class="img-responsive" alt="Services Image">
+                              <img *ngIf="service ==='Observability'" src="../../../assets/images/observability.jpg" class="img-responsive" alt="Services Image">
                             </div>
                             <h1>{{APP_CONTENT.SERVICES_BLOCK[service].title}}</h1>
                             <div [ngSwitch]="service">

@@ -40,7 +40,7 @@ export const LANDING_PAGE_CONTENT = {
     },
     SERVICES_BLOCK:{
         'CloudServices':{
-            title:'Cloud Managed Services',
+            title:'Cloud-Native Managed Services',
             description:'To provide comprehensive, reliable, and scalable cloud managed services through ReyanSys, ensuring seamless migration, optimization, and ongoing management of clients cloud infrastructure to enhance efficiency, security, and agility while maximizing ROI.',
         }, 
         'AppContainerization': {
