@@ -43,10 +43,10 @@ export const LANDING_PAGE_CONTENT = {
             title:'Cloud-Native Managed Services',
             description:'To provide comprehensive, reliable, and scalable cloud managed services through ReyanSys, ensuring seamless migration, optimization, and ongoing management of clients cloud infrastructure to enhance efficiency, security, and agility while maximizing ROI.',
         }, 
-        'AppContainerization': {
-            title: 'App Containerization',
-            description:`Reyansys offers Apps Containerization services. As Reyansys, you're likely committed to delivering top-notch containerization solutions to your clients. Here's how you might highlight your services`
-        },
+        // 'AppContainerization': {
+        //     title: 'App Containerization',
+        //     description:`Reyansys offers Apps Containerization services. As Reyansys, you're likely committed to delivering top-notch containerization solutions to your clients. Here's how you might highlight your services`
+        // },
         'DataOpsServices' : {
             title:  'DataOps Services',
             description:'Certainly! Here are some potential objectives for Reyansys to consider in offering DevOps services'
@@ -54,6 +54,10 @@ export const LANDING_PAGE_CONTENT = {
         'Observability': {
             title: 'Managed Observability and Monitoring',
             description:`Welcome to ReyanSys, your trusted partner in IT staffing solutions tailored to propel your organization's digital transformation journey forward. With our expertise, experience, and commitment to excellence, we provide comprehensive IT staffing services designed to meet the evolving needs of your business`
+        },
+        'Staffing':{
+            title:'Staffing services',
+            description:`Welcome to ReyanSys, your trusted partner in IT staffing solutions tailored to propel your organization's digital transformation journey forward. With our expertise, experience, and commitment to excellence, we provide comprehensive IT staffing services designed to meet the evolving needs of your business.`
         }
 
     }

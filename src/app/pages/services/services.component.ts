@@ -5,7 +5,8 @@ export enum Services {
   'CloudServices'= 'Cloud Managed Services',
   'AppContainerization' = 'App Containerization',
   'DataOpsServices' = 'DataOps Services',
-  'Observability' = 'Managed Observability and Monitoring'
+  'Observability' = 'Managed Observability and Monitoring',
+  'Staffing' = 'Staffing Servics'
 }
 
 @Component({
