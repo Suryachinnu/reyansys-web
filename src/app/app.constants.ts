@@ -41,6 +41,7 @@ export const LANDING_PAGE_CONTENT = {
     SERVICES_BLOCK:{
         'CloudServices':{
             title:'Cloud-Native Managed Services',
+            imgUrl:'../../../assets/images/clouds.jpg',
             description:'To provide comprehensive, reliable, and scalable cloud managed services through ReyanSys, ensuring seamless migration, optimization, and ongoing management of clients cloud infrastructure to enhance efficiency, security, and agility while maximizing ROI.',
         }, 
         // 'AppContainerization': {
@@ -49,17 +50,19 @@ export const LANDING_PAGE_CONTENT = {
         // },
         'DataOpsServices' : {
             title:  'DataOps Services',
+            imgUrl:'../../../assets/images/devops.jpg',
             description:'Certainly! Here are some potential objectives for Reyansys to consider in offering DevOps services'
         },
         'Observability': {
             title: 'Managed Observability and Monitoring',
+            imgUrl:'../../../assets/images/observability.jpg',
             description:`Welcome to ReyanSys, your trusted partner in IT staffing solutions tailored to propel your organization's digital transformation journey forward. With our expertise, experience, and commitment to excellence, we provide comprehensive IT staffing services designed to meet the evolving needs of your business`
         },
         'Staffing':{
             title:'Staffing services',
+            imgUrl:'../../../assets/images/Staffing.jpg',
             description:`Welcome to ReyanSys, your trusted partner in IT staffing solutions tailored to propel your organization's digital transformation journey forward. With our expertise, experience, and commitment to excellence, we provide comprehensive IT staffing services designed to meet the evolving needs of your business.`
         }
 
     }
-
 }

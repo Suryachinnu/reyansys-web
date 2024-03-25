@@ -3,16 +3,20 @@
 
    <!-- HOME -->
    <section id="home" data-stellar-background-ratio="0.5">
-     <video autoplay loop muted preload="auto">
+     <!-- <video autoplay loop muted preload="auto">
           <source src="../../../assets/videos/home-bar.mp4" type="video/mp4">
           Your browser does not support the video tag.
-      </video>
+      </video> -->
+     <video #video (canplay)="video.play()" (loadedmetadata)="video.muted = true">
+          <source src="../../../assets/videos/home-bar.mp4" type="video/mp4">
+          Your browser does not support the video tag.
+     </video>
         <div class="overlay"></div>
         <div class="container">
              <div class="row">
-
-                  <div class="col-md-6 col-sm-12">
-                       <div class="home-info">
+<div class="col-md-2  col-sm-12"></div>
+                  <div class="col-md-8 col-sm-12">
+                       <div class="home-info text-center">
                             <h1>
                               <span  class="animate-charcter">Innovative</span> and 
                               <span  class="animate-charcter"> Reliable</span>
@@ -26,12 +30,13 @@
                             <!-- <a href="#about" class="btn section-btn smoothScroll">Get a Quote</a> -->
                        </div>
                   </div>
-
+                  <div class="col-md-2  col-sm-12"></div>
+<!-- 
                   <div class="col-md-6 col-sm-12">
                        <div class="home-video">                           
                                  <img [src]="APP_CONTENT.HEADER_BLOCK.imageUrl" class="img-responsive"  alt="reyansys-web"/>                                
                        </div>
-                  </div>
+                  </div> -->
                   
              </div>
         </div>
