@@ -1,5 +1,5 @@
 import { ViewportScroller, DOCUMENT } from '@angular/common';
-import { Component, ElementRef, HostListener, Inject } from '@angular/core';
+import { AfterViewInit, Component, ElementRef, HostListener, Inject } from '@angular/core';
 import { Router } from '@angular/router';
 import * as $ from 'jquery';
 import 'bootstrap'
@@ -9,19 +9,19 @@ import 'bootstrap'
   templateUrl: './header.component.html',
   styleUrls: ['./header.component.scss']
 })
-export class HeaderComponent {
- 
-ngOnInit(){
-  this.init()
-}
+export class HeaderComponent  implements AfterViewInit {
+
 
 private init(){
   $(window).on('load', () => {
     $('.preloader').fadeOut(1000); // set duration in brackets
-  });
- 
-    
+  })    
 }
+
+ngAfterViewInit() {
+  this.init() 
+}
+
 constructor(private elementRef: ElementRef, private router: Router,
   private viewportScroller: ViewportScroller,
   @Inject(DOCUMENT) private document: Document) {}
